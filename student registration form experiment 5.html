@@ -1,0 +1,56 @@
+<h1 align="center">student registration form</h1>
+<hr>
+<!--regristration form-->
+<form method="post" action="sunbmit.html">
+    <!--full name-->
+    <p>
+        <label>full name:</label>
+        <input type="text" name="fullname" placeholder="enter your name" required>
+    </p>
+    <!--email with validation-->
+    <p>
+        <label>email:</label>
+        <input type="ermail" name="email"placeholder="enter valid email address" required>
+    </p>
+    <!--password-->
+    <p>
+    <label>password:</label>
+    <input type="password" name="password" placeholder="enter password"required>
+    </p>
+    <!--gender(radio buttons)-->
+    <p>
+        <label>gender:</label>
+        <input type="radio " name="gender" value="male"required>
+    </p>
+    <!--cousre selection(dropdown)-->
+    <p>
+        <label> course:</label>
+        <select name="course"required>
+            <option value="">--select course--</option>
+            <option value="btech">b.tech</option>
+            <option value="bca">bca</option>
+            <option value="mba">mba</option>
+            <option value="mca">mca</option>
+        </select>
+    </p>
+    <!--contact number-->
+    <p>
+        <label>contact no:</label>
+        <input type="tel" name="contact" placeholder="enter phone number"required>
+    </p>
+    <!--addresss (textarea)-->
+    <p>
+        <label>address:</label>
+        <input type="submit" value="register">
+        <input type="reset" rows="4" cols="40" placeholder="enter your address"required></textarea>
+    </p>
+    <!--submit and reset-->
+    <p>
+        <input type="submit" value="register">
+        <input type="reset" value="clear">
+    </p>
+</form>
+ <hr>
+ <p align="center">&copy;2025 student registration portal</p>
+</body>
+</html>
