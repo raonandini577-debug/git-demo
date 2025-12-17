@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Product Page</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; 
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-container {
+    width: 100%; 
+    max-width: 900px; 
+    background-color: white;
+    border: 1px solid #ddd; 
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.shop-header {
+    text-align: center;
+    background-color: #333; 
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border: 1px solid #111;
+}
+
+.shop-header h1 {
+    font-size: 1.8em;
+    margin: 0;
+}
+
+.product-card {
+
+    display: flex; 
+    border: 1px solid #ccc; 
+    padding: 15px;
+    margin: 0 auto;
+    width: 50%;
+
+}
+
+.product-image {
+    width:400px; 
+    height: 200px;
+    overflow: hidden; 
+    padding: 5px;
+    border: 1px solid #eee; 
+    margin-right: 20px;
+}
+
+.product-image  {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.product-details {
+    width: 60%; 
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.product-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #111; 
+    margin-bottom: 5px;
+}
+
+.product-description {
+    width: 400px; 
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #d9534f; 
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.old-price {
+    font-size: 1.5em;
+    color: #111; 
+    font-weight:thin;
+    text-decoration: line-through;
+    margin-bottom: 15px;
+}
+.add-to-cart {
+    width: 400px; 
+    background-color:#0056b3;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color:#5cb85c; 
+}
+
+
+    </style>
+    
+</head>
+<body>
+
+    <div class="product-container">
+        <header class="shop-header">
+            <h1>ShopEasy</h1>
+        </header>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="IMAG.jpg" alt="Classic Cotton T-Shirt">
+
+            <div class="product-details">
+                <p class="product-name">Classic Cotton T-Shirt</p>
+                <p class="product-description">Soft,breathable cotton. Regular fit .Available in multiple colors</p>
+              <nav> <span class="price">&#8377;799  </span> 
+                <span class=" old-price">&#8377;1,199</span></nav>
+                
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
